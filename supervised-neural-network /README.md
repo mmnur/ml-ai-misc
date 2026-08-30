@@ -20,13 +20,14 @@ This script requires Python 3 and the following packages:
 ```bash
 numpy
 matplotlib
+streamlit
 scikit-learn
 ```
 
 Install them with:
 
 ```bash
-pip install numpy matplotlib scikit-learn
+pip install numpy matplotlib streamlit scikit-learn
 ```
 
 ## Running the Program
