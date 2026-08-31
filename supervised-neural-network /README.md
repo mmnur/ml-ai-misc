@@ -20,13 +20,14 @@ This script requires Python 3 and the following packages:
 ```bash
 numpy
 matplotlib
+streamlit
 scikit-learn
 ```
 
 Install them with:
 
 ```bash
-pip install numpy matplotlib scikit-learn
+pip install numpy matplotlib streamlit scikit-learn
 ```
 
 ## Running the Program
@@ -51,13 +52,13 @@ The program will:
 
 The first plot shows the two classes in the generated two-feature dataset.
 
-![Generated Dataset](supervised-neural-network/generated-dataset.png)
+![Generated Dataset](generated-dataset.png)
 
 ### Perceptron Decision Boundary
 
 After training, the Perceptron divides the feature space into two predicted regions. The original samples are plotted on top of the learned decision regions.
 
-![Perceptron Decision Boundary](supervised-neural-network/perceptron-decision-boundary.png)
+![Perceptron Decision Boundary](perceptron-decision-boundary.png)
 
 ## How It Works
 
@@ -100,9 +101,9 @@ The original data points are then plotted on top of the regions.
 
 ```text
 ml-ai-misc/
-├── supervised-nn.py
-├── README.md
 └── supervised-neural-network/
+    ├── supervised-nn.py
+    ├── README.md
     ├── generated-dataset.png
     └── perceptron-decision-boundary.png
 ```
